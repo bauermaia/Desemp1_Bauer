@@ -1,0 +1,92 @@
+Alta director
+Nombre:Quentin
+Apellido:Tarantino
+------------------
+Alta director
+Nombre:Stanley
+Apellido:Kubrick
+------------------
+Alta director
+Nombre:Martin
+Apellido:Scorsese
+------------------
+Alta director
+Nombre:Steven
+Apellido:Spielberg
+------------------
+Modificación director
+Nombre:Stanley
+Apellido:Kubrick
+------------------
+Modificación director
+Nombre:Roberto
+Apellido:Scorsese
+------------------
+Modificación director
+Nombre:Martin
+Apellido:Scorsese
+------------------
+Eliminación de director
+Nombre:Stanley
+Apellido:Kubrick
+------------------
+Alta director
+Nombre:David 
+Apellido:Fincher
+------------------
+Alta Pelicula
+Nombre:Sin City
+Apellido:5
+------------------
+Alta Pelicula
+Nombre:Kill Bill 1
+Apellido:5
+------------------
+Alta Pelicula
+Nombre:The Post
+Apellido:8
+------------------
+Alta Pelicula
+Nombre:El Irlandés
+Apellido:7
+------------------
+Alta Pelicula
+Nombre:Zodiac
+Apellido:10
+------------------
+Modificación director
+Nombre:The Post
+Director id:5
+------------------
+Modificación director
+Nombre:The Post
+Director id:8
+------------------
+Eliminación de película
+Nombre:Kill Bill 1
+Apellido:Quentin
+------------------
+Alta Pelicula
+Nombre:Hugo
+Director Id:7
+------------------
+Modificación película
+Nombre:Zodiaco
+Director id:10
+------------------
+Eliminación de película
+Nombre:Hugo
+Apellido:Martin
+------------------
+Alta director
+Nombre:Stanley
+Apellido:Kubrick
+------------------
+Modificación director
+Nombre:Martín
+Apellido:Scorsese
+------------------
+Eliminación de director
+Nombre:Stanley
+Apellido:Kubrick
+------------------
