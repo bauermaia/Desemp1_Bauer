@@ -12,6 +12,15 @@
         <div>
             <asp:Label ID="Label1" runat="server" Text="Eliminar películas"></asp:Label>
             <br />
+            <br />
+            <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource2" DataTextField="apellidoDirector" DataValueField="idDirector">
+            </asp:DropDownList>
+&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Filtrar" />
+&nbsp;
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="height: 29px" Text="Quitar filtro" />
+            <br />
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:IssdTP42023ConnectionString1 %>" SelectCommand="SELECT * FROM [Directores]"></asp:SqlDataSource>
+            <br />
         </div>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="idPelicula" DataSourceID="SqlDataSource1" EmptyDataText="No hay registros de datos para mostrar.">
             <Columns>

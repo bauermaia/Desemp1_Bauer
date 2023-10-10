@@ -42,5 +42,16 @@ namespace Desemp1_Bauer
                 lblResultado.Text = "No puede ingresar campos vacíos";
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            SqlDataSource1.FilterExpression = "idDirector = " + DropDownList1.SelectedValue;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            SqlDataSource1.FilterExpression = string.Empty;
+            SqlDataSource1.FilterParameters.Clear();
+        }
     }
 }
